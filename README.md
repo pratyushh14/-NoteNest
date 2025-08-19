@@ -1,5 +1,7 @@
 # 📌 NoteNest
-
+🚀 Deployment
+🔹 Vercel 
+https://note-nest-pi-topaz.vercel.app/
 A simple and modern **paste management app** built with React, Redux, and Tailwind CSS.  
 It allows you to create, search, and manage your code snippets or text notes efficiently.
 
@@ -21,12 +23,4 @@ It allows you to create, search, and manage your code snippets or text notes eff
 - **Tailwind CSS** – Styling
 - **React Router** – Navigation
 
----
-
-## 📂 Project Structure
-src/
-**├── components/ # Reusable UI components
-**├── pages/ # Main pages (Paste, ViewPaste, etc.)
-**├── redux/ # Redux store & slices
-**├── App.jsx # Root component
-**└── main.jsx # Entry point
+t
