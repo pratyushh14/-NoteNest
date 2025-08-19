@@ -35,7 +35,7 @@ const Navbar = () => {
               }`
             }
           >
-            Pastes
+            Notes
           </NavLink>
         </div>
       </div>
