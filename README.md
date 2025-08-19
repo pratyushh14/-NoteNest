@@ -1,12 +1,32 @@
-# React + Vite
+# 📌 PasteHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern **paste management app** built with React, Redux, and Tailwind CSS.  
+It allows you to create, search, and manage your code snippets or text notes efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ✍️ Create and save pastes/snippets
+- 🔍 Search functionality for quick access
+- 🗑️ Delete pastes easily
+- 🎨 Modern UI with Tailwind CSS
+- ⚡ State management using Redux
+- 🔄 Auto-updating paste list
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React.js** – Frontend UI
+- **Redux Toolkit** – State Management
+- **Tailwind CSS** – Styling
+- **React Router** – Navigation
+
+---
+
+## 📂 Project Structure
+src/
+├── components/ # Reusable UI components
+├── pages/ # Main pages (Paste, ViewPaste, etc.)
+├── redux/ # Redux store & slices
+├── App.jsx # Root component
+└── main.jsx # Entry point
