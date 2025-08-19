@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* Root styles */
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg-dark: #0f172a; /* Tailwind slate-900 */
+  --bg-light: #f9fafb; /* Tailwind gray-50 */
+  --text-dark: #f8fafc; /* Tailwind slate-50 */
+  --text-light: #1e293b; /* Tailwind slate-800 */
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg-dark);
+  color: var(--text-dark);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: inherit; /* remove harsh blue */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #a78bfa; /* Tailwind purple-400 */
+}
+
+/* Remove browser default outline */
+button, a {
+  @apply outline-none focus:outline-none;
+}
+
+/* ✅ Unified button style */
+.btn {
+  @apply px-4 py-2 rounded-xl font-medium text-sm 
+         bg-gradient-to-r from-purple-500 to-blue-500 
+         text-white shadow-md transition 
+         hover:opacity-90 active:scale-95;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  body {
+    background: var(--bg-light);
+    color: var(--text-light);
+  }
+}
