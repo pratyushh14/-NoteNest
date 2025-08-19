@@ -1,4 +1,4 @@
-# 📌 PasteHub
+# 📌 NoteNest
 
 A simple and modern **paste management app** built with React, Redux, and Tailwind CSS.  
 It allows you to create, search, and manage your code snippets or text notes efficiently.
